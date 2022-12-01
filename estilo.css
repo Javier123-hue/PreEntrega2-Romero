@@ -1,0 +1,198 @@
+html
+body {
+    background-color: rgb(41, 105, 255) ;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding: 10px 40px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.grid-layout{
+    height: 650px;
+    display:grid;
+    grid-template-columns: 80% auto; 
+    grid-template-rows: 20% 10% 60% auto;                    
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+
+.caja {
+    border: 4px solid black;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+.c1{
+    grid-column: 1/ 4;
+    
+    background-color: lightblue;
+}
+.c2{
+    grid-column: 1/ 4;
+    background-color: lightskyblue;
+}
+.c3{
+    background-color: antiquewhite;
+}
+.c4{
+    background-color: lightsalmon;
+}
+.c5{
+    grid-column: 1/ 4;
+    background-color: lightseagreen;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 10px solid #000;
+}
+.item{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.container:hover .item{
+    transform: rotate(30deg);
+}
+title {
+    font-size: 45px;
+    margin-top: 30px;
+    color: aquamarine;
+    text-align: center;
+
+    
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+
+.contenedor_paginas {
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    flex:1;
+}
+.pagina {
+    margin-left: 25px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: "khand", sans-serif;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.contenedor_paginas p:hover 
+   {
+    color: white;
+    transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+}
+#body {
+    width: 50px;
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+#body p {
+    font-size: 12px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width:768px)
+
+{}.contenedor_paginas
+{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    left: 30px;
+    display: block;
+    text-align: center;
+    background-color: blue;
+    border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -ms-border-radius: 0px 0px 8px 8px;
+    -o-border-radius: 0px 0px 8px 8px;
+    padding: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+    
+.icono_menu_desplegable {
+    position: relative;
+    width: 49px;
+    height: 49px;
+    padding: 12px 8px;
+}
+.desplegable_linea {
+    position: absolute;
+    width: 34px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.desplegable_linea_uno {
+    top: 15px;
+}
+.desplegable_linea_dos {
+    top: 23px;
+}
+.desplegable_linea_tres {
+    bottom: 15px;
+}
+.desplegar_menu {
+    padding: 30px;
+    height: 10cm;
+}
+#box{
+    border:10px solid #000;
+    border-radius: 10px 40px 40px 10px;
+    width: 200px;
+    height: 100px;
+    background-color:#ccc;
+}
